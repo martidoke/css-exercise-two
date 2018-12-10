@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  line-height: normal;
 }
 
 nav {
@@ -23,13 +25,14 @@ nav {
   width: 70%;
 }
 
-.left, .right {
+.left {
   float: left;
   width: 50%;
 }
 
 .right {
   float: right;
+  width: 50%
 }
 
 ul {
@@ -44,6 +47,33 @@ li {
 
 article {
   padding-top: 100px;
+}
+
+figcaption {
+  font-size: 0.7em;
+}
+
+h1 {
+  font-size: 2em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+h3{
+  font-size: 1.08em;
+  padding-bottom: 1em;
+}
+
+p {
+  padding-bottom: .6em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0070BC;
 }
 
 .container {
